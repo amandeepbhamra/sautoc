@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: sautoc_development
+  pool: 5
+  username: amandeepsingh
+  host: localhost
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: sautoc_test
+  pool: 5
+  username: amandeepsingh
+  password:
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: sautoc_production
+  pool: 5
+  username: amandeepsingh
+  password: 
