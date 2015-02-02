@@ -1,6 +1,8 @@
 Sautoc::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  ENV["REDISTOGO_URL"] = 'redis://redistogo:f94e34ca45e582f8151904d22c3147d4@mummichog.redistogo.com:10142/'
+
   # Code is not reloaded between requests
   config.cache_classes = true
 
